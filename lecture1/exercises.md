@@ -65,6 +65,25 @@ MN'P + L'MP + L'MN' + L'MNP' + L'N'P' = M(N'P + L'P + L'N' + L'NP') + L'N'P'
 = ML' + MN'P + L'N'P'
 ```
 
+# Exercise 4
+
+```
+X = (AB)'
+Y = (A(AB)')'
+Z = (B(AB)')'
+C = ((A(AB)')' (B(AB)')')' = (A' + B')(A + B)
+D = AB
+```
+
+| `A` | `B` | `D` | `C` |
+|-----|-----|-----|-----|
+| 0   | 0   | 0   | 0   |
+| 0   | 1   | 0   | 1   |
+| 1   | 0   | 0   | 1   |
+| 1   | 1   | 1   | 0   |
+
+The circuit is a 1-bit half-adder.
+
 # Exercise 5
 
 See the c file.
