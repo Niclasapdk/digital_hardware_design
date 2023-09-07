@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Thu Sep  7 12:09:45 2023
+# Process ID: 13116
+# Current directory: C:/Users/Valdemar/Documents/GitHub/digital_hardware_design/lecture2/exercise4lec2/exercise4lec2.runs/impl_1
+# Command line: vivado.exe -log fulladder.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source fulladder.tcl -notrace
+# Log file: C:/Users/Valdemar/Documents/GitHub/digital_hardware_design/lecture2/exercise4lec2/exercise4lec2.runs/impl_1/fulladder.vdi
+# Journal file: C:/Users/Valdemar/Documents/GitHub/digital_hardware_design/lecture2/exercise4lec2/exercise4lec2.runs/impl_1\vivado.jou
+# Running On: LAPTOP-51C14GPI, OS: Windows, CPU Frequency: 3294 MHz, CPU Physical cores: 12, Host memory: 14888 MB
+#-----------------------------------------------------------
+source fulladder.tcl -notrace
