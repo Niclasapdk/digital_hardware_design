@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Sep 12 09:11:43 2023
+# Process ID: 4389
+# Current directory: /home/markus/uni/digital_hardware_design/lecture2/exercise4lec2/exercise4lec2.runs/impl_1
+# Command line: vivado -log fulladder.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source fulladder.tcl -notrace
+# Log file: /home/markus/uni/digital_hardware_design/lecture2/exercise4lec2/exercise4lec2.runs/impl_1/fulladder.vdi
+# Journal file: /home/markus/uni/digital_hardware_design/lecture2/exercise4lec2/exercise4lec2.runs/impl_1/vivado.jou
+# Running On: mltop, OS: Linux, CPU Frequency: 3532.134 MHz, CPU Physical cores: 4, Host memory: 16640 MB
+#-----------------------------------------------------------
+source fulladder.tcl -notrace

@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "C:/Users/Valdemar/Documents/GitHub/digital_hardware_design/lecture2/exercise4lec2/exercise4lec2.runs/impl_1/fulladder.tcl"
+  variable script "/home/markus/uni/digital_hardware_design/lecture2/exercise4lec2/exercise4lec2.runs/impl_1/fulladder.tcl"
   variable category "vivado_impl"
 }
 
@@ -123,10 +123,10 @@ start_step write_bitstream
 set ACTIVE_STEP write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
-  set_param chipscope.maxJobs 3
+  set_param chipscope.maxJobs 2
   set_param runs.launchOptions { -jobs 8  }
   open_checkpoint fulladder_routed.dcp
-  set_property webtalk.parent_dir C:/Users/Valdemar/Documents/GitHub/digital_hardware_design/lecture2/exercise4lec2/exercise4lec2.cache/wt [current_project]
+  set_property webtalk.parent_dir /home/markus/uni/digital_hardware_design/lecture2/exercise4lec2/exercise4lec2.cache/wt [current_project]
 set_property TOP fulladder [current_fileset]
 OPTRACE "read constraints: write_bitstream" START { }
 OPTRACE "read constraints: write_bitstream" END { }

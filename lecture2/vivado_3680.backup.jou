@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Sep 12 09:09:39 2023
+# Process ID: 3680
+# Current directory: /home/markus/uni/digital_hardware_design/lecture2
+# Command line: vivado
+# Log file: /home/markus/uni/digital_hardware_design/lecture2/vivado.log
+# Journal file: /home/markus/uni/digital_hardware_design/lecture2/vivado.jou
+# Running On: mltop, OS: Linux, CPU Frequency: 3574.525 MHz, CPU Physical cores: 4, Host memory: 16640 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/markus/uni/digital_hardware_design/lecture2/exercise4lec2/exercise4lec2.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+open_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture2/exercise4lec2/exercise4lec2.runs/impl_1/fulladder.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture2/exercise4lec2/exercise4lec2.runs/impl_1/fulladder.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture2/exercise4lec2/exercise4lec2.runs/impl_1/fulladder.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+xhub::refresh_catalog [xhub::get_xstores xilinx_board_store]
+xhub::refresh_catalog [xhub::get_xstores xilinx_board_store]
+xhub::refresh_catalog [xhub::get_xstores xilinx_board_store]

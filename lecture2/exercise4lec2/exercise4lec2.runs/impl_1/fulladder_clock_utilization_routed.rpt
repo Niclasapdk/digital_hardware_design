@@ -1,8 +1,8 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-| Date         : Thu Sep  7 12:10:25 2023
-| Host         : LAPTOP-51C14GPI running 64-bit major release  (build 9200)
+| Tool Version : Vivado v.2023.1 (lin64) Build 3865809 Sun May  7 15:04:56 MDT 2023
+| Date         : Tue Sep 12 09:12:20 2023
+| Host         : mltop running 64-bit Debian GNU/Linux 12 (bookworm)
 | Command      : report_clock_utilization -file fulladder_clock_utilization_routed.rpt
 | Design       : fulladder
 | Device       : 7a35t-cpg236
