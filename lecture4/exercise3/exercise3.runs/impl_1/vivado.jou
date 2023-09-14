@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Thu Sep 14 11:28:13 2023
+# Process ID: 22194
+# Current directory: /home/markus/uni/digital_hardware_design/lecture4/exercise3/exercise3.runs/impl_1
+# Command line: vivado -log top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
+# Log file: /home/markus/uni/digital_hardware_design/lecture4/exercise3/exercise3.runs/impl_1/top.vdi
+# Journal file: /home/markus/uni/digital_hardware_design/lecture4/exercise3/exercise3.runs/impl_1/vivado.jou
+# Running On: mltop, OS: Linux, CPU Frequency: 3671.398 MHz, CPU Physical cores: 4, Host memory: 16639 MB
+#-----------------------------------------------------------
+source top.tcl -notrace
