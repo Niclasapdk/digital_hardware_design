@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Sep 19 11:12:59 2023
+# Process ID: 1200
+# Current directory: C:/Users/johba/digital_hardware_design/lecture5/exercise1/exercise1.runs/impl_1
+# Command line: vivado.exe -log top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
+# Log file: C:/Users/johba/digital_hardware_design/lecture5/exercise1/exercise1.runs/impl_1/top.vdi
+# Journal file: C:/Users/johba/digital_hardware_design/lecture5/exercise1/exercise1.runs/impl_1\vivado.jou
+# Running On: LAPTOP-4V14CJV4, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 4, Host memory: 16965 MB
+#-----------------------------------------------------------
+source top.tcl -notrace
