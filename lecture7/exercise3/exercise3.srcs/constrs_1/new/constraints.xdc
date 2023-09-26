@@ -1,0 +1,8 @@
+set_property PACKAGE_PIN A17 [get_ports green_0]
+set_property PACKAGE_PIN C16 [get_ports red_0]
+set_property PACKAGE_PIN C17 [get_ports yellow_0]
+set_property IOSTANDARD LVCMOS33 [get_ports green_0]
+set_property IOSTANDARD LVCMOS33 [get_ports red_0]
+set_property IOSTANDARD LVCMOS33 [get_ports yellow_0]
+set_property PACKAGE_PIN E19 [get_ports CLK_0]
+set_property IOSTANDARD LVCMOS33 [get_ports CLK_0]

@@ -1,0 +1,5 @@
+top_traffic_design_c_counter_binary_0_0.vhd,vhdl,xil_defaultlib,../../../bd/top_traffic_design/ip/top_traffic_design_c_counter_binary_0_0/sim/top_traffic_design_c_counter_binary_0_0.vhd,
+top_traffic_design_top_0_0.vhd,vhdl,xil_defaultlib,../../../bd/top_traffic_design/ip/top_traffic_design_top_0_0/sim/top_traffic_design_top_0_0.vhd,
+top_traffic_design_xlslice_0_0.v,verilog,xil_defaultlib,../../../bd/top_traffic_design/ip/top_traffic_design_xlslice_0_0/sim/top_traffic_design_xlslice_0_0.v,
+top_traffic_design.vhd,vhdl,xil_defaultlib,../../../bd/top_traffic_design/sim/top_traffic_design.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v
