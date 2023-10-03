@@ -84,3 +84,7 @@ ISTORE i // 6 cycles
 ```
 
 So 19 cycles in total and $\frac{19}{4\mathrm{GHz}} = 4.75 \,\mathrm{ns}$ execution time.
+
+## Exercise B
+
+![ex_b.jpg](ex_b.jpg)
