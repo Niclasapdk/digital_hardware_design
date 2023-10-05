@@ -1,5 +1,6 @@
-## **Exercises:**
-### **Part 1**
+# Exercises:
+
+## Part 1
 From Tanenbaum ch. 5 (see eventually the pdf in the materials folder): Ex. 4, 6, 14, 21 and 23. (Ex. 23 is a puzzle, that can be fun but also tricky, so don't spend too much time on it).
 
 - 4 Description: Given the memory values below and a one-address machine with an accumulator, what values do the following instructions load into the accumulator?
@@ -54,7 +55,7 @@ LOAD 0 into the address??
 
 **Answer:**
 
-### **Part 2**
+## Part 2
 Look into the ATmega328P Datasheet (pdf in materials folder) and find answers to the following questions:
 
 a) How many data registres does the ATmega328P contain?
@@ -84,7 +85,7 @@ pre-decrement, and indirect with post-increment.
 In the register file, registers R26 to R31 feature the indirect addressing pointer registers.
 *(Found on page 18)*
 
-### **Part 3**
+## Part 3
 
 Have a look in the AVR Instruction Set Manual (pdf in materials folder) and find answers to the following questions:
 
