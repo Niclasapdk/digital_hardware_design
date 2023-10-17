@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="131.064999999 ms"></ZoomStartTime>
+      <ZoomEndTime time="302.765000000 ms"></ZoomEndTime>
+      <Cursor1Time time="209.864999999 ms"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="96"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="51" />
+   <wvobject type="logic" fp_name="/top/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/upload">
+      <obj_property name="ElementShortName">upload</obj_property>
+      <obj_property name="ObjectShortName">upload</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/butt_clk">
+      <obj_property name="ElementShortName">butt_clk</obj_property>
+      <obj_property name="ObjectShortName">butt_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/tx">
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/rx_echo">
+      <obj_property name="ElementShortName">rx_echo</obj_property>
+      <obj_property name="ObjectShortName">rx_echo</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/rx">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top/RAM">
+      <obj_property name="ElementShortName">RAM[0:25][7:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM[0:25][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top/databus">
+      <obj_property name="ElementShortName">databus[7:0]</obj_property>
+      <obj_property name="ObjectShortName">databus[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top/addr_reg">
+      <obj_property name="ElementShortName">addr_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top/data_reg">
+      <obj_property name="ElementShortName">data_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top/A2D">
+      <obj_property name="ElementShortName">A2D[0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">A2D[0:3][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top/SP">
+      <obj_property name="ElementShortName">SP[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SP[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top/IR">
+      <obj_property name="ElementShortName">IR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IR[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top/IP">
+      <obj_property name="ElementShortName">IP[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IP[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top/H">
+      <obj_property name="ElementShortName">H[7:0]</obj_property>
+      <obj_property name="ObjectShortName">H[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/cpu_clk">
+      <obj_property name="ElementShortName">cpu_clk</obj_property>
+      <obj_property name="ObjectShortName">cpu_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/Zf">
+      <obj_property name="ElementShortName">Zf</obj_property>
+      <obj_property name="ObjectShortName">Zf</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/Cf">
+      <obj_property name="ElementShortName">Cf</obj_property>
+      <obj_property name="ObjectShortName">Cf</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/Ff">
+      <obj_property name="ElementShortName">Ff</obj_property>
+      <obj_property name="ObjectShortName">Ff</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/RW">
+      <obj_property name="ElementShortName">RW</obj_property>
+      <obj_property name="ObjectShortName">RW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/OE">
+      <obj_property name="ElementShortName">OE</obj_property>
+      <obj_property name="ObjectShortName">OE</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/top/state">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/top/I_state">
+      <obj_property name="ElementShortName">I_state</obj_property>
+      <obj_property name="ObjectShortName">I_state</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/top/cnt">
+      <obj_property name="ElementShortName">cnt</obj_property>
+      <obj_property name="ObjectShortName">cnt</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top/argA">
+      <obj_property name="ElementShortName">argA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">argA[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top/argB">
+      <obj_property name="ElementShortName">argB[7:0]</obj_property>
+      <obj_property name="ObjectShortName">argB[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top/res">
+      <obj_property name="ElementShortName">res[7:0]</obj_property>
+      <obj_property name="ObjectShortName">res[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top/ALUsel">
+      <obj_property name="ElementShortName">ALUsel[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUsel[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/Z">
+      <obj_property name="ElementShortName">Z</obj_property>
+      <obj_property name="ObjectShortName">Z</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/C">
+      <obj_property name="ElementShortName">C</obj_property>
+      <obj_property name="ObjectShortName">C</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top/trbyte">
+      <obj_property name="ElementShortName">trbyte[7:0]</obj_property>
+      <obj_property name="ObjectShortName">trbyte[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/lclk">
+      <obj_property name="ElementShortName">lclk</obj_property>
+      <obj_property name="ObjectShortName">lclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/t_clk">
+      <obj_property name="ElementShortName">t_clk</obj_property>
+      <obj_property name="ObjectShortName">t_clk</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/top/clk_div_cnt">
+      <obj_property name="ElementShortName">clk_div_cnt</obj_property>
+      <obj_property name="ObjectShortName">clk_div_cnt</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top/RAM_mirror">
+      <obj_property name="ElementShortName">RAM_mirror[0:33][7:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM_mirror[0:33][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top/SP_mirror">
+      <obj_property name="ElementShortName">SP_mirror[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SP_mirror[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top/IR_mirror">
+      <obj_property name="ElementShortName">IR_mirror[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IR_mirror[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top/IP_mirror">
+      <obj_property name="ElementShortName">IP_mirror[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IP_mirror[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top/H_mirror">
+      <obj_property name="ElementShortName">H_mirror[7:0]</obj_property>
+      <obj_property name="ObjectShortName">H_mirror[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/top/tb_byte_cnt">
+      <obj_property name="ElementShortName">tb_byte_cnt</obj_property>
+      <obj_property name="ObjectShortName">tb_byte_cnt</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/top/esc_state">
+      <obj_property name="ElementShortName">esc_state</obj_property>
+      <obj_property name="ObjectShortName">esc_state</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top/rxbyte">
+      <obj_property name="ElementShortName">rxbyte[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rxbyte[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/rx_clk">
+      <obj_property name="ElementShortName">rx_clk</obj_property>
+      <obj_property name="ObjectShortName">rx_clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top/rxbyte_c">
+      <obj_property name="ElementShortName">rxbyte_c[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rxbyte_c[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/top/rx_cnt">
+      <obj_property name="ElementShortName">rx_cnt</obj_property>
+      <obj_property name="ObjectShortName">rx_cnt</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/top/rx_state">
+      <obj_property name="ElementShortName">rx_state</obj_property>
+      <obj_property name="ObjectShortName">rx_state</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/top/data_width">
+      <obj_property name="ElementShortName">data_width</obj_property>
+      <obj_property name="ObjectShortName">data_width</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/top/data_length">
+      <obj_property name="ElementShortName">data_length</obj_property>
+      <obj_property name="ObjectShortName">data_length</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/top/addr_width">
+      <obj_property name="ElementShortName">addr_width</obj_property>
+      <obj_property name="ObjectShortName">addr_width</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/top/CLK_P_BITS">
+      <obj_property name="ElementShortName">CLK_P_BITS</obj_property>
+      <obj_property name="ObjectShortName">CLK_P_BITS</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/top/Half_Bit">
+      <obj_property name="ElementShortName">Half_Bit</obj_property>
+      <obj_property name="ObjectShortName">Half_Bit</obj_property>
+   </wvobject>
+</wave_config>

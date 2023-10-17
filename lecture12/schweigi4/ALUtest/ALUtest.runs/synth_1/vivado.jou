@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Jul 21 09:51:38 2023
+# Process ID: 8168
+# Current directory: C:/Users/uaworld/Desktop/schweigi4/ALUtest/ALUtest.runs/synth_1
+# Command line: vivado.exe -log ALU.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ALU.tcl
+# Log file: C:/Users/uaworld/Desktop/schweigi4/ALUtest/ALUtest.runs/synth_1/ALU.vds
+# Journal file: C:/Users/uaworld/Desktop/schweigi4/ALUtest/ALUtest.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ALU.tcl -notrace

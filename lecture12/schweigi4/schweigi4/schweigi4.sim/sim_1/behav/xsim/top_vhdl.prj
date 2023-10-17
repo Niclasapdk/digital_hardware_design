@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../schweigi4.srcs/sources_1/imports/new/ALU.vhd" \
+"../../../../schweigi4.srcs/sources_1/imports/new/bytetx.vhd" \
+"../../../../schweigi4.srcs/sources_1/imports/new/hs_uart.vhd" \
+"../../../../schweigi4.srcs/sources_1/imports/new/top_w_proc_2.vhd" \
+
+# Do not sort compile order
+nosort
