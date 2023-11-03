@@ -1,5 +1,5 @@
 # digital_hardware_design
-Repository for 3rd semester digital hardware design repository
+Repository for 3rd-semester digital hardware design for the Electronics Systems Engineer bachelor at Aalborg University
 
 # CMOD 7
 
