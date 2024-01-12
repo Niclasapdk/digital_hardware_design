@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1694078787" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Exercise2.dcp">
-  <File Type="PA-TCL" Name="Exercise2.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="Exercise2_drc_synth.rpt"/>
-  <File Type="REPORTS-TCL" Name="Exercise2_reports.tcl"/>
-  <File Type="RDS-RDS" Name="Exercise2.vds"/>
-  <File Type="RDS-UTIL" Name="Exercise2_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="Exercise2_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="Exercise2.dcp"/>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1705056249" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Exercise2.dcp">
   <File Type="VDS-TIMINGSUMMARY" Name="Exercise2_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="Exercise2.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="Exercise2_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="Exercise2_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="Exercise2_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="Exercise2.vds"/>
+  <File Type="REPORTS-TCL" Name="Exercise2_reports.tcl"/>
   <File Type="VDS-TIMING-PB" Name="Exercise2_timing_summary_synth.pb"/>
+  <File Type="PA-TCL" Name="Exercise2.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/Exercise2.vhd">
@@ -51,9 +51,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>

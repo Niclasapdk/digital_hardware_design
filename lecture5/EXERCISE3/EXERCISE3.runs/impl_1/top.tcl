@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "C:/Users/johba/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.runs/impl_1/top.tcl"
+  variable script "/home/markus/uni/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.runs/impl_1/top.tcl"
   variable category "vivado_impl"
 }
 
@@ -123,11 +123,11 @@ start_step write_bitstream
 set ACTIVE_STEP write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
-  set_param chipscope.maxJobs 2
   set_param xicom.use_bs_reader 1
+  set_param chipscope.maxJobs 2
   set_param runs.launchOptions { -jobs 4  }
   open_checkpoint top_routed.dcp
-  set_property webtalk.parent_dir C:/Users/johba/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.cache/wt [current_project]
+  set_property webtalk.parent_dir /home/markus/uni/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.cache/wt [current_project]
 set_property TOP top [current_fileset]
 OPTRACE "read constraints: write_bitstream" START { }
 OPTRACE "read constraints: write_bitstream" END { }

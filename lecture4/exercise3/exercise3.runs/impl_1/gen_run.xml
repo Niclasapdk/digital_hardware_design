@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1694683636">
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1705060519">
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-RQS" Name="top_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS" Name="top_routed.rqs"/>
@@ -14,6 +14,7 @@
   <File Type="CFI_FILE" Name="top.cfi"/>
   <File Type="RCFI_FILE" Name="top.rcfi"/>
   <File Type="PL-PDI-FILE" Name="top_pld.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="top_soc.pdi"/>
   <File Type="RDI-RDI" Name="top.vdi"/>
   <File Type="PDI-FILE" Name="top.pdi"/>
   <File Type="BITSTR-MMI" Name="top.mmi"/>
@@ -83,8 +84,6 @@
   <File Type="REPORTS-TCL" Name="top_reports.tcl"/>
   <File Type="INIT-TIMING" Name="top_timing_summary_init.rpt"/>
   <File Type="PA-TCL" Name="top.tcl"/>
-  <File Type="BOOT-PDI-FILE" Name="top_soc.pdi"/>
-  <File Type="PA-DCP" Name="top.dcp"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/top.vhd">
@@ -127,9 +126,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023">
-      <Desc>Default settings for Implementation.</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>

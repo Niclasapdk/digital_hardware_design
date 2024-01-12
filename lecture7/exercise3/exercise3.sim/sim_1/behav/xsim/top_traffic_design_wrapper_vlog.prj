@@ -1,9 +1,0 @@
-# compile verilog/system verilog design source files
-verilog xil_defaultlib  \
-"../../../../exercise3.ip_user_files/bd/top_traffic_design/ip/top_traffic_design_xlslice_0_0/sim/top_traffic_design_xlslice_0_0.v" \
-
-# compile glbl module
-verilog xil_defaultlib "glbl.v"
-
-# Do not sort compile order
-nosort

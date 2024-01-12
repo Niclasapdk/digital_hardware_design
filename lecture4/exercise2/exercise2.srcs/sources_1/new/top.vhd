@@ -41,7 +41,7 @@ architecture Behavioral of top is
 begin
 
 process(clk)
-variable buff : std_logic_vector (3 downto 0) := "0000";
+    variable buff : std_logic_vector (3 downto 0) := "0000";
 begin
     if (clk'event and clk = '1') then
         buff(3 downto 1) := buff(2 downto 0);

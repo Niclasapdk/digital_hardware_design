@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/johba/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.runs/synth_1/top.tcl"
+  variable script "/home/markus/uni/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.runs/synth_1/top.tcl"
   variable category "vivado_synth"
 }
 
@@ -70,25 +70,25 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 2
 set_param xicom.use_bs_reader 1
+set_param chipscope.maxJobs 2
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a35tcpg236-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir C:/Users/johba/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.cache/wt [current_project]
-set_property parent.project_path C:/Users/johba/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.xpr [current_project]
+set_property webtalk.parent_dir /home/markus/uni/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.cache/wt [current_project]
+set_property parent.project_path /home/markus/uni/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
-set_property board_part_repo_paths {C:/Users/johba/AppData/Roaming/Xilinx/Vivado/2023.1/xhub/board_store/xilinx_board_store} [current_project]
+set_property board_part_repo_paths {/home/markus/.Xilinx/Vivado/2023.1/xhub/board_store/xilinx_board_store} [current_project]
 set_property board_part digilentinc.com:cmod_a7-35t:part0:1.2 [current_project]
-set_property ip_output_repo c:/Users/johba/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.cache/ip [current_project]
+set_property ip_output_repo /home/markus/uni/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_vhdl -library xil_defaultlib C:/Users/johba/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.srcs/sources_1/imports/new/top.vhd
+read_vhdl -library xil_defaultlib /home/markus/uni/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.srcs/sources_1/imports/new/top.vhd
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -98,12 +98,12 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/Users/johba/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.srcs/constrs_1/imports/new/constraints.xdc
-set_property used_in_implementation false [get_files C:/Users/johba/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.srcs/constrs_1/imports/new/constraints.xdc]
+read_xdc /home/markus/uni/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.srcs/constrs_1/imports/new/constraints.xdc
+set_property used_in_implementation false [get_files /home/markus/uni/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.srcs/constrs_1/imports/new/constraints.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 
-read_checkpoint -auto_incremental -incremental C:/Users/johba/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.srcs/utils_1/imports/synth_1/top.dcp
+read_checkpoint -auto_incremental -incremental /home/markus/uni/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.srcs/utils_1/imports/synth_1/top.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

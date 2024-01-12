@@ -41,7 +41,7 @@ end top;
 architecture Behavioral of top is
     type state is (S0, S1, S2, S3);
     signal current_state, next_state: state;
-    signal cnt : unsigned(2 downto 0) := "000";
+    signal cnt : std_logic_vector(25 downto 0) := (others => '0');
 begin
     -- Current state logic
     process(clk)
@@ -51,51 +51,61 @@ begin
         end if;
     end process;
     -- Next state logic
-    process(current_state)
+    process(current_state, cnt)
     begin
         case current_state is  
             when S0 =>
-                if cnt > 5 then
-                    cnt <= "000";
+                if cnt(25) = '1' then
                     next_state <= S1;
                 else
-                    cnt <= cnt + 1;
                     next_state <= S0;
                 end if;
             when S1 =>
-                next_state <= S2;
+                if cnt(25) = '1' then
+                    next_state <= S2;
+                else
+                    next_state <= S1;
+                end if;
             when S2 =>
-                if cnt > 5 then
-                    cnt <= "000";
+                if cnt(25) = '1' then
                     next_state <= S3;
                 else
-                    cnt <= cnt + 1;
                     next_state <= S2;
                 end if;
             when S3 =>
-                next_state <= S0;
+                if cnt(25) = '1' then
+                    next_state <= S0;
+                else
+                    next_state <= S3;
+                end if;
         end case;
     end process;
     -- Output logic
-    process(current_state)
+    process(clk, current_state, cnt)
     begin
-        case current_state is
-            when S0 =>
-                red <= '1';
-                yellow <= '0';
-                green <= '0';
-            when S1 =>
-                yellow <= '1';
-                red <= '0';
-                green <= '0';
-            when S2 =>
-                green <= '1';
-                yellow <= '0';
-                red <= '0';
-            when S3 =>
-                yellow <= '1';
-                red <= '1';
-                green <= '0';
-        end case;
+        if rising_edge(clk) then
+            cnt <= std_logic_vector(to_unsigned(to_integer(unsigned(cnt)) + 1, 26));
+            if cnt(25) = '1' then
+                cnt <= "00000000000000000000000000";
+            end if;
+            case current_state is
+                when S0 =>
+                    red <= '1';
+                    yellow <= '0';
+                    green <= '0';
+                when S1 =>
+                    red <= '1';
+                    yellow <= '1';
+                    green <= '0';
+                when S2 =>
+                    red <= '0';
+                    yellow <= '0';
+                    green <= '1';
+                when S3 =>
+                    red <= '0';
+                    yellow <= '1';
+                    green <= '0';
+            end case;
+        end if;
     end process;
 end Behavioral;

@@ -3,13 +3,13 @@
 # SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Tue Sep 12 09:46:24 2023
-# Process ID: 10220
+# Start of session at: Fri Jan 12 09:46:54 2024
+# Process ID: 7027
 # Current directory: /home/markus/uni/digital_hardware_design/lecture2
 # Command line: vivado
 # Log file: /home/markus/uni/digital_hardware_design/lecture2/vivado.log
 # Journal file: /home/markus/uni/digital_hardware_design/lecture2/vivado.jou
-# Running On: mltop, OS: Linux, CPU Frequency: 3400.856 MHz, CPU Physical cores: 4, Host memory: 16640 MB
+# Running On: mltop, OS: Linux, CPU Frequency: 3415.375 MHz, CPU Physical cores: 4, Host memory: 16639 MB
 #-----------------------------------------------------------
 start_gui
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
@@ -71,95 +71,50 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 availab
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at /home/markus/build/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
-INFO: [Common 17-14] Message 'Board 49-26' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
-xhub::refresh_catalog [xhub::get_xstores xilinx_board_store]
-xhub::refresh_catalog: Time (s): cpu = 00:00:12 ; elapsed = 00:00:38 . Memory (MB): peak = 7584.820 ; gain = 0.000 ; free physical = 10191 ; free virtual = 13143
-set_param board.repoPaths {/home/markus/.Xilinx/Vivado/2023.1/xhub/board_store/xilinx_board_store}
-xhub::install [xhub::get_xitems digilentinc.com:xilinx_board_store:cmod_a7-35t:1.2]
-INFO: [xhubtcl 76-32] Installing object 'digilentinc.com:xilinx_board_store:cmod_a7-35t:1.2' ...
-INFO: [Common 17-1570] Installing object digilentinc.com:xilinx_board_store:cmod_a7-35t:1.2 from remote host https://github.com/Xilinx/XilinxBoardStore.git
-INFO: [Common 17-1573] Object digilentinc.com:xilinx_board_store:cmod_a7-35t:1.2 has been installed successfully.
-create_project exercise5lec2 /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2 -part xc7a35tcpg236-1
+open_project /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Valdemar/Desktop/Exercise1lec2/exercise1lec2' since last save.
+WARNING: [filemgmt 56-2] Board Part Repository Path: Could not find the directory '/home/markus/uni/AppData/Roaming/Xilinx/Vivado/2023.1/xhub/board_store/xilinx_board_store', nor could it be found using path '/home/markus/uni/digital_hardware_design/lecture2/C:/Users/Valdemar/AppData/Roaming/Xilinx/Vivado/2023.1/xhub/board_store/xilinx_board_store'.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.gen/sources_1'.
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory '/home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.ip_user_files'.
+Scanning sources...
+Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/markus/build/Xilinx/Vivado/2023.1/data/ip'.
-set_property board_part digilentinc.com:cmod_a7-35t:part0:1.2 [current_project]
-file mkdir /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.srcs/sources_1/new
-set_property target_language VHDL [current_project]
-set_property simulator_language VHDL [current_project]
-close [ open /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.srcs/sources_1/new/top.vhd w ]
-add_files /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.srcs/sources_1/new/top.vhd
-close [ open /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.srcs/sources_1/new/half_adder.vhd w ]
-add_files /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.srcs/sources_1/new/half_adder.vhd
-close [ open /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.srcs/sources_1/new/full_adder.vhd w ]
-add_files /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.srcs/sources_1/new/full_adder.vhd
 update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-set_property top top [current_fileset]
-update_compile_order -fileset sources_1
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.srcs/sources_1/new/full_adder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.srcs/sources_1/new/half_adder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.srcs/sources_1/new/top.vhd:]
-update_compile_order -fileset sources_1
-launch_runs synth_1 -jobs 8
-WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
-[Tue Sep 12 10:14:41 2023] Launched synth_1...
-Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.runs/synth_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.srcs/utils_1/imports/synth_1/Exercise1.dcp with file /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/synth_1/Exercise1.dcp
+launch_runs synth_1 -jobs 4
+[Fri Jan 12 10:04:23 2024] Launched synth_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/synth_1/runme.log
 open_run synth_1 -name synth_1
 Design is defaulting to impl run constrset: constrs_1
 Design is defaulting to synth run part: xc7a35tcpg236-1
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8380.008 ; gain = 0.000 ; free physical = 8837 ; free virtual = 12022
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8070.133 ; gain = 0.000 ; free physical = 8360 ; free virtual = 12567
 INFO: [Project 1-479] Netlist was created with Vivado 2023.1
 INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.srcs/constrs_1/new/ConstraintLEDandButtons.xdc]
+Finished Parsing XDC File [/home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.srcs/constrs_1/new/ConstraintLEDandButtons.xdc]
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8482.840 ; gain = 0.000 ; free physical = 8778 ; free virtual = 11963
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8131.945 ; gain = 0.000 ; free physical = 8293 ; free virtual = 12501
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-open_run: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 8651.398 ; gain = 561.664 ; free physical = 8646 ; free virtual = 11831
+open_run: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 8263.203 ; gain = 473.090 ; free physical = 8180 ; free virtual = 12393
+set_property IOSTANDARD LVCMOS33 [get_ports [list B1]]
+close_design
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.srcs/utils_1/imports/synth_1/Exercise1.dcp with file /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/synth_1/Exercise1.dcp
+launch_runs synth_1 -jobs 4
+[Fri Jan 12 10:20:40 2024] Launched synth_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Fri Jan 12 10:22:08 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Jan 12 10:22:59 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/impl_1/runme.log
 open_hw_manager
 connect_hw_server -allow_non_jtag
 INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
@@ -180,128 +135,26 @@ INFO: [Labtools 27-2221] Launch Output:
   ****** Build date   : Apr 10 2023-17:59:24
     **** Build number : 2023.1.1681142364
       ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
-      ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 
 
 
 open_hw_target
 INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210328B792D0A
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/impl_1/Exercise1.bit} [get_hw_devices xc7a35t_0]
 current_hw_device [get_hw_devices xc7a35t_0]
 refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
 INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
-ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210328B792D0A
-place_ports {IN1[0]} G17
-place_ports {IN1[1]} G19
-place_ports {IN1[2]} N18
-place_ports {IN1[3]} L18
-set_property IOSTANDARD LVCMOS33 [get_ports [list {IN1[3]} {IN1[2]} {IN1[1]} {IN1[0]}]]
-set_property IOSTANDARD LVCMOS33 [get_ports [list {IN2[3]} {IN2[2]} {IN2[1]} {IN2[0]}]]
-place_ports {IN2[0]} H17
-place_ports {IN2[1]} H19
-place_ports {IN2[2]} J19
-place_ports {IN2[2]} A18
-set_property package_pin "" [get_ports [list  {IN2[2]}]]
-place_ports {IN2[3]} K18
-set_property IOSTANDARD LVCMOS33 [get_ports [list {S[3]} {S[2]} {S[1]} {S[0]}]]
-set_property IOSTANDARD LVCMOS33 [get_ports [list Cin]]
-set_property IOSTANDARD LVCMOS33 [get_ports [list Cout]]
-place_ports {IN2[2]} A18
-place_ports Cin B18
-file mkdir /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.srcs/constrs_1/new
-close [ open /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.srcs/constrs_1/new/constraints.xdc w ]
-add_files -fileset constrs_1 /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.srcs/constrs_1/new/constraints.xdc
-set_property target_constrs_file /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.srcs/constrs_1/new/constraints.xdc [current_fileset -constrset]
-save_constraints -force
-set_property PULLTYPE PULLDOWN [get_ports [list {IN1[3]} {IN1[2]} {IN1[1]} {IN1[0]}]]
-set_property PULLTYPE PULLDOWN [get_ports [list {IN2[3]} {IN2[2]} {IN2[1]} {IN2[0]}]]
-save_constraints
-set_property PULLTYPE PULLDOWN [get_ports [list {IN1[3]} {IN1[2]} {IN1[1]} {IN1[0]}]]
-place_ports Cout C17
-place_ports {S[0]} A17
-place_ports {S[1]} C16
-place_ports {S[2]} B17
-place_ports {S[3]} B16
-save_constraints
-reset_run synth_1
-INFO: [Project 1-1160] Copying file /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.runs/synth_1/top.dcp to /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.srcs/utils_1/imports/synth_1 and adding it to utils fileset
-launch_runs synth_1 -jobs 8
-[Tue Sep 12 11:07:30 2023] Launched synth_1...
-Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.runs/synth_1/runme.log
-launch_runs impl_1 -jobs 8
-WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
-[Tue Sep 12 11:08:23 2023] Launched impl_1...
-Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.runs/impl_1/runme.log
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-[Tue Sep 12 11:09:17 2023] Launched impl_1...
-Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.runs/impl_1/runme.log
-INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210328B792D0A
-INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
-WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
 set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
 set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/impl_1/Exercise1.bit} [get_hw_devices xc7a35t_0]
 program_hw_devices [get_hw_devices xc7a35t_0]
 INFO: [Labtools 27-3164] End of startup status: HIGH
 refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
 INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
-ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210328B792D0A
-INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210328B792D0A
-INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
-WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
-set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
-program_hw_devices [get_hw_devices xc7a35t_0]
-INFO: [Labtools 27-3164] End of startup status: HIGH
-refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
-INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
-ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210328B792D0A
-set_property DRIVE 12 [get_ports [list {S[3]} {S[2]} {S[1]} {S[0]}]]
-INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210328B792D0A
-INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
-WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
-set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
-program_hw_devices [get_hw_devices xc7a35t_0]
-INFO: [Labtools 27-3164] End of startup status: HIGH
-refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
-INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
-place_ports {IN2[2]} D19
-save_constraints -force
-reset_run impl_1
-launch_runs impl_1 -jobs 8
-WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
-[Tue Sep 12 11:41:13 2023] Launched impl_1...
-Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.runs/impl_1/runme.log
-ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210328B792D0A
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-[Tue Sep 12 11:42:16 2023] Launched impl_1...
-Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.runs/impl_1/runme.log
-INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210328B792D0A
-INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
-WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
-set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
-program_hw_devices [get_hw_devices xc7a35t_0]
-INFO: [Labtools 27-3164] End of startup status: HIGH
-refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
-INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
-place_ports {IN2[2]} A18
-save_constraints -force
-reset_run impl_1
-launch_runs impl_1 -jobs 8
-WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
-[Tue Sep 12 11:44:25 2023] Launched impl_1...
-Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.runs/impl_1/runme.log
-ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210328B792D0A
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-[Tue Sep 12 11:45:24 2023] Launched impl_1...
-Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.runs/impl_1/runme.log
-close_design
+close_hw_manager
 open_run impl_1
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9130.434 ; gain = 0.000 ; free physical = 6439 ; free virtual = 11216
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8702.250 ; gain = 0.000 ; free physical = 7270 ; free virtual = 11731
 INFO: [Project 1-479] Netlist was created with Vivado 2023.1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Timing 38-478] Restoring timing data from binary archive.
@@ -311,110 +164,1034 @@ INFO: [Project 1-853] Binary constraint restore complete.
 Reading XDEF placement.
 Reading placer database...
 Reading XDEF routing.
-Read XDEF Files: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 9183.457 ; gain = 0.000 ; free physical = 6446 ; free virtual = 11219
-Restored from archive | CPU: 0.020000 secs | Memory: 0.029266 MB |
-Finished XDEF File Restore: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 9183.457 ; gain = 0.000 ; free physical = 6446 ; free virtual = 11219
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9183.457 ; gain = 0.000 ; free physical = 6446 ; free virtual = 11219
+Read XDEF Files: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 8770.270 ; gain = 10.000 ; free physical = 7252 ; free virtual = 11696
+Restored from archive | CPU: 0.010000 secs | Memory: -0.002090 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 8770.270 ; gain = 10.000 ; free physical = 7252 ; free virtual = 11696
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8770.270 ; gain = 0.000 ; free physical = 7252 ; free virtual = 11696
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.srcs/utils_1/imports/synth_1/Exercise1.dcp with file /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/synth_1/Exercise1.dcp
+launch_runs synth_1 -jobs 4
+[Fri Jan 12 10:55:29 2024] Launched synth_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/synth_1/runme.log
+close_design
+launch_runs impl_1 -jobs 4
+[Fri Jan 12 10:56:25 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Jan 12 10:57:16 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2023.1
+  **** Build date : May  7 2023 at 15:13:34
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-17:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210328B792D0A
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/impl_1/Exercise1.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/impl_1/Exercise1.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8943.055 ; gain = 0.000 ; free physical = 7052 ; free virtual = 11492
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 8943.055 ; gain = 0.000 ; free physical = 7034 ; free virtual = 11474
+Restored from archive | CPU: 0.010000 secs | Memory: 0.010971 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 8943.055 ; gain = 0.000 ; free physical = 7034 ; free virtual = 11474
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8943.055 ; gain = 0.000 ; free physical = 7034 ; free virtual = 11474
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+set_property PULLTYPE PULLDOWN [get_ports [list B1]]
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210328B792D0A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210328B792D0A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property OFFCHIP_TERM NONE [get_ports [list B1]]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.srcs/utils_1/imports/synth_1/Exercise1.dcp with file /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/synth_1/Exercise1.dcp
+launch_runs impl_1 -jobs 4
+[Fri Jan 12 10:59:39 2024] Launched synth_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/synth_1/runme.log
+[Fri Jan 12 10:59:39 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/impl_1/runme.log
+close_hw_manager
+close_design
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Jan 12 11:01:13 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2023.1
+  **** Build date : May  7 2023 at 15:13:34
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-17:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210328B792D0A
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/impl_1/Exercise1.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/impl_1/Exercise1.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2023.1
+  **** Build date : May  7 2023 at 15:13:34
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-17:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210328B792D0A
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/impl_1/Exercise1.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/impl_1/Exercise1.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.srcs/utils_1/imports/synth_1/Exercise1.dcp with file /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/synth_1/Exercise1.dcp
+launch_runs synth_1 -jobs 4
+[Fri Jan 12 11:12:06 2024] Launched synth_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/synth_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Jan 12 11:12:58 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2023.1
+  **** Build date : May  7 2023 at 15:13:34
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-17:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210328B792D0A
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/impl_1/Exercise1.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/impl_1/Exercise1.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2023.1
+  **** Build date : May  7 2023 at 15:13:34
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-17:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210328B792D0A
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/impl_1/Exercise1.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/impl_1/Exercise1.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210328B792D0A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210328B792D0A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/impl_1/Exercise1.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.srcs/utils_1/imports/synth_1/Exercise1.dcp with file /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/synth_1/Exercise1.dcp
+launch_runs impl_1 -jobs 4
+[Fri Jan 12 11:26:01 2024] Launched synth_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/synth_1/runme.log
+[Fri Jan 12 11:26:01 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/impl_1/runme.log
+close_hw_manager
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Jan 12 11:27:25 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2023.1
+  **** Build date : May  7 2023 at 15:13:34
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-17:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210328B792D0A
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/impl_1/Exercise1.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/impl_1/Exercise1.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210328B792D0A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210328B792D0A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210328B792D0A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210328B792D0A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/impl_1/Exercise1.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210328B792D0A
+close_hw_manager
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.srcs/utils_1/imports/synth_1/Exercise1.dcp with file /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/synth_1/Exercise1.dcp
+launch_runs impl_1 -jobs 4
+[Fri Jan 12 11:40:57 2024] Launched synth_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/synth_1/runme.log
+[Fri Jan 12 11:40:57 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Jan 12 11:42:22 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2023.1
+  **** Build date : May  7 2023 at 15:13:34
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-17:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210328B792D0A
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/impl_1/Exercise1.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/impl_1/Exercise1.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+close_project
+open_project /home/markus/uni/digital_hardware_design/lecture2/exercise2lec2/exercise2lec2.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Valdemar/Documents/GitHub/digital_hardware_design/lecture2/exercise2lec2' since last save.
+WARNING: [filemgmt 56-2] Board Part Repository Path: Could not find the directory '/home/AppData/Roaming/Xilinx/Vivado/2023.1/xhub/board_store/xilinx_board_store', nor could it be found using path '/home/markus/uni/digital_hardware_design/lecture2/C:/Users/Valdemar/AppData/Roaming/Xilinx/Vivado/2023.1/xhub/board_store/xilinx_board_store'.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/markus/uni/digital_hardware_design/lecture2/exercise2lec2/exercise2lec2.gen/sources_1'.
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory '/home/markus/uni/digital_hardware_design/lecture2/exercise2lec2/exercise2lec2.ip_user_files'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/markus/build/Xilinx/Vivado/2023.1/data/ip'.
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/markus/uni/digital_hardware_design/lecture2/exercise2lec2/exercise2lec2.srcs/utils_1/imports/synth_1/Exercise2.dcp with file /home/markus/uni/digital_hardware_design/lecture2/exercise2lec2/exercise2lec2.runs/synth_1/Exercise2.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Jan 12 11:44:09 2024] Launched synth_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/exercise2lec2/exercise2lec2.runs/synth_1/runme.log
+[Fri Jan 12 11:44:09 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/exercise2lec2/exercise2lec2.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2023.1
+  **** Build date : May  7 2023 at 15:13:34
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-17:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210328B792D0A
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture2/exercise2lec2/exercise2lec2.runs/impl_1/Exercise2.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture2/exercise2lec2/exercise2lec2.runs/impl_1/Exercise2.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210328B792D0A
+close_hw_manager
+close_project
+open_project /home/markus/uni/digital_hardware_design/lecture2/exercise3lec2/exercise3lec2.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/markus/uni/digital_hardware_design/lecture2/exercise3lec2/exercise3lec2.gen/sources_1'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/markus/uni/digital_hardware_design/lecture2/exercise3lec2/exercise3lec2.srcs/sources_1/new/halfadder.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/markus/uni/digital_hardware_design/lecture2/exercise3lec2/exercise3lec2.srcs/utils_1/imports/synth_1/fulladder.dcp'.
+WARNING: [Project 1-865] Could not find the file /home/markus/uni/digital_hardware_design/lecture2/exercise3lec2/exercise3lec2.srcs/utils_1/imports/synth_1/fulladder.dcp
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-865] Could not find the file /home/markus/uni/digital_hardware_design/lecture2/exercise3lec2/exercise3lec2.srcs/utils_1/imports/synth_1/fulladder.dcp
+WARNING: [Project 1-865] Could not find the file /home/markus/uni/digital_hardware_design/lecture2/exercise3lec2/exercise3lec2.srcs/utils_1/imports/synth_1/fulladder.dcp
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/markus/build/Xilinx/Vivado/2023.1/data/ip'.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/markus/uni/digital_hardware_design/lecture2/exercise3lec2/exercise3lec2.srcs/utils_1/imports/synth_1/fulladder.dcp with file /home/markus/uni/digital_hardware_design/lecture2/exercise3lec2/exercise3lec2.runs/synth_1/fulladder.dcp
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Jan 12 11:47:24 2024] Launched synth_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/exercise3lec2/exercise3lec2.runs/synth_1/runme.log
+[Fri Jan 12 11:47:24 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/exercise3lec2/exercise3lec2.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2023.1
+  **** Build date : May  7 2023 at 15:13:34
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-17:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-17:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210328B792D0A
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture2/exercise3lec2/exercise3lec2.runs/impl_1/exercise3.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture2/exercise3lec2/exercise3lec2.runs/impl_1/exercise3.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+close_project
+open_project /home/markus/uni/digital_hardware_design/lecture4/exercise2/exercise2.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/markus/uni/digital_hardware_design/lecture4/exercise2/exercise2.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/markus/build/Xilinx/Vivado/2023.1/data/ip'.
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/markus/uni/digital_hardware_design/lecture4/exercise2/exercise2.srcs/utils_1/imports/synth_1/top.dcp with file /home/markus/uni/digital_hardware_design/lecture4/exercise2/exercise2.runs/synth_1/top.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Jan 12 11:52:31 2024] Launched synth_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture4/exercise2/exercise2.runs/synth_1/runme.log
+[Fri Jan 12 11:52:31 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture4/exercise2/exercise2.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2023.1
+  **** Build date : May  7 2023 at 15:13:34
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-17:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210328B792D0A
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture4/exercise2/exercise2.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture4/exercise2/exercise2.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210328B792D0A
+close_hw_manager
+close_project
+open_project /home/markus/uni/digital_hardware_design/lecture4/exercise3/exercise3.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/markus/uni/digital_hardware_design/lecture4/exercise3/exercise3.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/markus/build/Xilinx/Vivado/2023.1/data/ip'.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/markus/uni/digital_hardware_design/lecture4/exercise3/exercise3.srcs/utils_1/imports/synth_1/top.dcp with file /home/markus/uni/digital_hardware_design/lecture4/exercise3/exercise3.runs/synth_1/top.dcp
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Jan 12 12:55:20 2024] Launched synth_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture4/exercise3/exercise3.runs/synth_1/runme.log
+[Fri Jan 12 12:55:20 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture4/exercise3/exercise3.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2023.1
+  **** Build date : May  7 2023 at 15:13:34
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-17:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210328B792D0A
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture4/exercise3/exercise3.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture4/exercise3/exercise3.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+close_project
+open_project /home/markus/uni/digital_hardware_design/lecture5/exercise1/exercise1.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/johba/digital_hardware_design/lecture5/exercise1' since last save.
+WARNING: [filemgmt 56-2] Board Part Repository Path: Could not find the directory '/home/markus/uni/AppData/Roaming/Xilinx/Vivado/2023.1/xhub/board_store/xilinx_board_store', nor could it be found using path '/home/markus/uni/digital_hardware_design/lecture2/C:/Users/johba/AppData/Roaming/Xilinx/Vivado/2023.1/xhub/board_store/xilinx_board_store'.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/markus/uni/digital_hardware_design/lecture5/exercise1/exercise1.gen/sources_1'.
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory '/home/markus/uni/digital_hardware_design/lecture5/exercise1/exercise1.ip_user_files'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/markus/build/Xilinx/Vivado/2023.1/data/ip'.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/markus/uni/digital_hardware_design/lecture5/exercise1/exercise1.srcs/utils_1/imports/synth_1/top.dcp with file /home/markus/uni/digital_hardware_design/lecture5/exercise1/exercise1.runs/synth_1/top.dcp
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Jan 12 13:09:06 2024] Launched synth_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture5/exercise1/exercise1.runs/synth_1/runme.log
+[Fri Jan 12 13:09:06 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture5/exercise1/exercise1.runs/impl_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/markus/uni/digital_hardware_design/lecture5/exercise1/exercise1.srcs/utils_1/imports/synth_1/top.dcp with file /home/markus/uni/digital_hardware_design/lecture5/exercise1/exercise1.runs/synth_1/top.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Jan 12 13:10:28 2024] Launched synth_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture5/exercise1/exercise1.runs/synth_1/runme.log
+[Fri Jan 12 13:10:28 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture5/exercise1/exercise1.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2023.1
+  **** Build date : May  7 2023 at 15:13:34
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-17:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210328B792D0A
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture5/exercise1/exercise1.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture5/exercise1/exercise1.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+close_project
+open_project /home/markus/uni/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/johba/digital_hardware_design/lecture5/EXERCISE3' since last save.
+WARNING: [filemgmt 56-2] Board Part Repository Path: Could not find the directory '/home/markus/uni/AppData/Roaming/Xilinx/Vivado/2023.1/xhub/board_store/xilinx_board_store', nor could it be found using path '/home/markus/uni/digital_hardware_design/lecture2/C:/Users/johba/AppData/Roaming/Xilinx/Vivado/2023.1/xhub/board_store/xilinx_board_store'.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/markus/uni/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.gen/sources_1'.
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory '/home/markus/uni/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.ip_user_files'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/markus/build/Xilinx/Vivado/2023.1/data/ip'.
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/markus/uni/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.srcs/utils_1/imports/synth_1/top.dcp with file /home/markus/uni/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.runs/synth_1/top.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Jan 12 13:18:37 2024] Launched synth_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.runs/synth_1/runme.log
+[Fri Jan 12 13:18:37 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2023.1
+  **** Build date : May  7 2023 at 15:13:34
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-17:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210328B792D0A
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/markus/uni/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.srcs/utils_1/imports/synth_1/top.dcp with file /home/markus/uni/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.runs/synth_1/top.dcp
+launch_runs synth_1 -jobs 4
+[Fri Jan 12 13:22:06 2024] Launched synth_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Fri Jan 12 13:23:58 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Jan 12 13:24:45 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.runs/impl_1/runme.log
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9102.949 ; gain = 0.000 ; free physical = 6952 ; free virtual = 11570
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 9150.840 ; gain = 0.000 ; free physical = 6882 ; free virtual = 11490
+Restored from archive | CPU: 0.020000 secs | Memory: 0.023590 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 9150.840 ; gain = 0.000 ; free physical = 6882 ; free virtual = 11490
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9150.840 ; gain = 0.000 ; free physical = 6881 ; free virtual = 11489
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
 close_design
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Jan 12 13:25:43 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.runs/impl_1/runme.log
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-17:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210328B792D0A
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture5/EXERCISE3/EXERCISE3.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+close_project
+open_project /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/johba/digital_hardware_design/lecture7/exercise3' since last save.
+WARNING: [filemgmt 56-2] Board Part Repository Path: Could not find the directory '/home/markus/uni/AppData/Roaming/Xilinx/Vivado/2023.1/xhub/board_store/xilinx_board_store', nor could it be found using path '/home/markus/uni/digital_hardware_design/lecture2/C:/Users/johba/AppData/Roaming/Xilinx/Vivado/2023.1/xhub/board_store/xilinx_board_store'.
+WARNING: [BD 41-2576] File '/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.gen/sources_1/bd/top_traffic_design/hw_handoff/top_traffic_design.hwh' referenced by design 'top_traffic_design' could not be found.
+WARNING: [BD 41-2576] File '/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.gen/sources_1/bd/top_traffic_design/top_traffic_design.bda' referenced by design 'top_traffic_design' could not be found.
+WARNING: [BD 41-2576] File '/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.gen/sources_1/bd/top_traffic_design/synth/top_traffic_design.hwdef' referenced by design 'top_traffic_design' could not be found.
+WARNING: [BD 41-2576] File '/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.gen/sources_1/bd/top_traffic_design/sim/top_traffic_design.protoinst' referenced by design 'top_traffic_design' could not be found.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/markus/build/Xilinx/Vivado/2023.1/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'top_traffic_design_c_counter_binary_0_0' generated file not found '/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.gen/sources_1/bd/top_traffic_design/ip/top_traffic_design_c_counter_binary_0_0/top_traffic_design_c_counter_binary_0_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'top_traffic_design_c_counter_binary_0_0' generated file not found '/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.gen/sources_1/bd/top_traffic_design/ip/top_traffic_design_c_counter_binary_0_0/top_traffic_design_c_counter_binary_0_0_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'top_traffic_design_top_0_0' generated file not found '/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.gen/sources_1/bd/top_traffic_design/ip/top_traffic_design_top_0_0/top_traffic_design_top_0_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'top_traffic_design_top_0_0' generated file not found '/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.gen/sources_1/bd/top_traffic_design/ip/top_traffic_design_top_0_0/top_traffic_design_top_0_0_sim_netlist.vhdl'. Please regenerate to continue.
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'if' [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd:57]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'if' [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd:57]
+update_compile_order -fileset sources_1
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'if' [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd:57]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'if' [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd:57]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'if' [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd:57]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'if' [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd:57]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'if' [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd:57]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'if' [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd:57]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'if' [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd:57]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'if' [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd:57]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'if' [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd:57]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'if' [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd:57]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'if' [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd:57]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'if' [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd:57]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'if' [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd:57]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'if' [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd:57]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'if' [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd:57]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'if' [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd:57]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'if' [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd:57]
+update_module_reference top_traffic_design_top_0_0
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'if' [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd:57]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'if' [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd:57]
+ERROR: [IP_Flow 19-259] [HDL Parser] Failed analyze operation while parsing HDL.
+ERROR: [IP_Flow 19-258] [HDL Parser] Error parsing HDL file '/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd'.
+WARNING: [IP_Flow 19-378] There are no ports found from top-level file '/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd'.
+ERROR: [IP_Flow 19-4668] Failed to infer definition from module 'top'.
+ERROR: [Common 17-39] 'update_module_reference' failed due to earlier errors.
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'if' [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd:57]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'if' [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd:57]
+update_module_reference top_traffic_design_top_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+Reading block design file </home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/bd/top_traffic_design/top_traffic_design.bd>...
+Adding component instance block -- xilinx.com:ip:c_counter_binary:12.0 - c_counter_binary_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_0
+Adding component instance block -- xilinx.com:module_ref:top:1.0 - top_0
+Successfully read diagram <top_traffic_design> from block design file </home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/bd/top_traffic_design/top_traffic_design.bd>
+Upgrading '/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/bd/top_traffic_design/top_traffic_design.bd'
+INFO: [IP_Flow 19-3420] Updated top_traffic_design_top_0_0 to use current project options
+Wrote  : </home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/bd/top_traffic_design/top_traffic_design.bd> 
+Wrote  : </home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/bd/top_traffic_design/ui/bd_414c33aa.ui> 
+set_property top top [current_fileset]
+set_property top_lib xil_defaultlib [current_fileset]
+set_property top_arch Behavioral [current_fileset]
+set_property top_file /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd [current_fileset]
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.gen/sources_1/bd/top_traffic_design/hdl/top_traffic_design_wrapper.vhd] -no_script -reset -force -quiet
+remove_files  /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.gen/sources_1/bd/top_traffic_design/hdl/top_traffic_design_wrapper.vhd
+file delete -force /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.gen/sources_1/bd/top_traffic_design/hdl/top_traffic_design_wrapper.vhd
+export_ip_user_files -of_objects  [get_files /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/bd/top_traffic_design/top_traffic_design.bd] -no_script -reset -force -quiet
+remove_files  /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/bd/top_traffic_design/top_traffic_design.bd
+file delete -force /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/bd/top_traffic_design
+file delete -force /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.gen/sources_1/bd/top_traffic_design
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/utils_1/imports/synth_1/top.dcp with file /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/synth_1/top_traffic_design_wrapper.dcp
+launch_runs synth_1 -jobs 4
+[Fri Jan 12 13:40:52 2024] Launched synth_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri Jan 12 13:43:13 2024] Launched synth_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/synth_1/runme.log
+synth_design -top top -part xc7a35tcpg236-1 -lint 
+Command: synth_design -top top -part xc7a35tcpg236-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 9957.953 ; gain = 242.820 ; free physical = 6379 ; free virtual = 11048
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-638] synthesizing module 'top' [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd:41]
+WARNING: [Synth 8-614] signal 'cnt' is read in the process but is not in the sensitivity list [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd:54]
+INFO: [Synth 8-256] done synthesizing module 'top' (1#1) [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd:41]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 10022.922 ; gain = 307.789 ; free physical = 6308 ; free virtual = 10978
+---------------------------------------------------------------------------------
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1 (lin64) Build 3865809 Sun May  7 15:04:56 MDT 2023
+| Date         : Fri Jan 12 13:47:08 2024
+| Host         : mltop running 64-bit Debian GNU/Linux 12 (bookworm)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+
+1. Summary
+----------
+
++---------+--------------+----------+
+| Rule ID | # Violations | # Waived |
++---------+--------------+----------+
+
+
+INFO: [Synth 37-85] Total of 0 linter message(s) generated.
+INFO: [Synth 37-45] Linter Run Finished!
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 10022.922 ; gain = 0.000 ; free physical = 6308 ; free virtual = 10978
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/constrs_1/new/constraints.xdc]
+WARNING: [Vivado 12-584] No ports matched 'CLK_0'. [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/constrs_1/new/constraints.xdc:1]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/constrs_1/new/constraints.xdc:1]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'green_0'. [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/constrs_1/new/constraints.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/constrs_1/new/constraints.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'red_0'. [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/constrs_1/new/constraints.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/constrs_1/new/constraints.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'yellow_0'. [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/constrs_1/new/constraints.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/constrs_1/new/constraints.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'green_0'. [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/constrs_1/new/constraints.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/constrs_1/new/constraints.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'red_0'. [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/constrs_1/new/constraints.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/constrs_1/new/constraints.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'yellow_0'. [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/constrs_1/new/constraints.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/constrs_1/new/constraints.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CLK_0'. [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/constrs_1/new/constraints.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/constrs_1/new/constraints.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/constrs_1/new/constraints.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 10076.816 ; gain = 0.000 ; free physical = 6296 ; free virtual = 10965
+INFO: [Common 17-83] Releasing license: Synthesis
+8 Infos, 9 Warnings, 8 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 10076.816 ; gain = 361.684 ; free physical = 6295 ; free virtual = 10965
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] 
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] 
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri Jan 12 13:47:14 2024] Launched synth_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Fri Jan 12 13:48:08 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Jan 12 13:48:58 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/impl_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/utils_1/imports/synth_1/top.dcp with file /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/synth_1/top.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Jan 12 13:50:08 2024] Launched synth_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/synth_1/runme.log
+[Fri Jan 12 13:50:08 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/impl_1/runme.log
 open_run synth_1 -name synth_1
 Design is defaulting to impl run constrset: constrs_1
 Design is defaulting to synth run part: xc7a35tcpg236-1
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9380.059 ; gain = 0.000 ; free physical = 6282 ; free virtual = 11095
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 10076.816 ; gain = 0.000 ; free physical = 6252 ; free virtual = 10931
+INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-479] Netlist was created with Vivado 2023.1
 INFO: [Project 1-570] Preparing netlist for logic optimization
-Parsing XDC File [/home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.srcs/constrs_1/new/constraints.xdc]
-Finished Parsing XDC File [/home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.srcs/constrs_1/new/constraints.xdc]
+Parsing XDC File [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/constrs_1/new/constraints.xdc]
+WARNING: [Vivado 12-584] No ports matched 'green_0'. [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/constrs_1/new/constraints.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/constrs_1/new/constraints.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'red_0'. [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/constrs_1/new/constraints.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/constrs_1/new/constraints.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'yellow_0'. [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/constrs_1/new/constraints.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/constrs_1/new/constraints.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'green_0'. [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/constrs_1/new/constraints.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/constrs_1/new/constraints.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'red_0'. [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/constrs_1/new/constraints.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/constrs_1/new/constraints.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'yellow_0'. [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/constrs_1/new/constraints.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/constrs_1/new/constraints.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/constrs_1/new/constraints.xdc]
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9380.059 ; gain = 0.000 ; free physical = 6284 ; free virtual = 11099
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 10076.816 ; gain = 0.000 ; free physical = 6236 ; free virtual = 10922
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-add_files -fileset constrs_1 -norecurse /home/markus/uni/digital_hardware_design/general/Cmod-A7-Master.xdc
-open_run impl_1
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9380.059 ; gain = 0.000 ; free physical = 6339 ; free virtual = 11105
-INFO: [Project 1-479] Netlist was created with Vivado 2023.1
-INFO: [Project 1-570] Preparing netlist for logic optimization
-INFO: [Timing 38-478] Restoring timing data from binary archive.
-INFO: [Timing 38-479] Binary timing data restore complete.
-INFO: [Project 1-856] Restoring constraints from binary archive.
-INFO: [Project 1-853] Binary constraint restore complete.
-Reading XDEF placement.
-Reading placer database...
-Reading XDEF routing.
-Read XDEF Files: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 9380.059 ; gain = 0.000 ; free physical = 6335 ; free virtual = 11101
-Restored from archive | CPU: 0.020000 secs | Memory: 0.026596 MB |
-Finished XDEF File Restore: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 9380.059 ; gain = 0.000 ; free physical = 6335 ; free virtual = 11101
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9380.059 ; gain = 0.000 ; free physical = 6335 ; free virtual = 11101
-INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
-
-WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
-set_property target_constrs_file /home/markus/uni/digital_hardware_design/general/Cmod-A7-Master.xdc [current_fileset -constrset]
-set_property package_pin "" [get_ports [list  {IN1[3]}]]
-place_ports {IN1[3]} L18
-set_property target_constrs_file /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.srcs/constrs_1/new/constraints.xdc [current_fileset -constrset]
-save_constraints_as constraints
-set_property constrset constraints [get_runs synth_1]
-set_property constrset constraints [get_runs impl_1]
-place_ports {S[0]} M3
-place_ports {S[1]} L3
-place_ports {S[2]} A16
-place_ports {S[3]} K3
-place_ports Cout C15
-save_constraints -force
-ERROR: [Common 17-53] User Exception: A file was added to constraint set constraints after the  implementation design was open. Doing "Save Constraints" will overwrite these files. Use "Save Constraints As" to avoid losing any data on disk.
-export_ip_user_files -of_objects  [get_files /home/markus/uni/digital_hardware_design/general/Cmod-A7-Master.xdc] -no_script -reset -force -quiet
-remove_files  -fileset constrs_1 /home/markus/uni/digital_hardware_design/general/Cmod-A7-Master.xdc
-export_ip_user_files -of_objects  [get_files /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.srcs/constraints/Cmod-A7-Master.xdc] -no_script -reset -force -quiet
-remove_files  -fileset constraints /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.srcs/constraints/Cmod-A7-Master.xdc
-save_constraints -force
-ERROR: [Common 17-53] User Exception: A file was added to constraint set constraints after the  implementation design was open. Doing "Save Constraints" will overwrite these files. Use "Save Constraints As" to avoid losing any data on disk.
-save_constraints_as constraints2
-set_property constrset constraints2 [get_runs synth_1]
-set_property constrset constraints2 [get_runs impl_1]
-delete_fileset [ get_filesets constraints ]
-file delete -force /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.srcs/constraints
-delete_fileset [ get_filesets constrs_1 ]
-file delete -force /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.srcs/constrs_1
+close_design
 reset_run synth_1
-INFO: [Project 1-1161] Replacing file /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.srcs/utils_1/imports/synth_1/top.dcp with file /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.runs/synth_1/top.dcp
-launch_runs impl_1 -jobs 8
-[Tue Sep 12 11:54:17 2023] Launched synth_1...
-Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.runs/synth_1/runme.log
-[Tue Sep 12 11:54:17 2023] Launched impl_1...
-Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.runs/impl_1/runme.log
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-[Tue Sep 12 11:56:51 2023] Launched impl_1...
-Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.runs/impl_1/runme.log
-close_hw_manager
-startgroup
-set_property package_pin "" [get_ports [list  {IN2[3]}]]
-place_ports {IN2[2]} K18
-endgroup
-place_ports {IN2[3]} V8
-place_ports Cin U8
-save_constraints -force
-ERROR: [Common 17-53] User Exception: A file was added to constraint set constraints2 after the  implementation design was open. Doing "Save Constraints" will overwrite these files. Use "Save Constraints As" to avoid losing any data on disk.
-save_constraints -force
-ERROR: [Common 17-53] User Exception: A file was added to constraint set constraints2 after the  implementation design was open. Doing "Save Constraints" will overwrite these files. Use "Save Constraints As" to avoid losing any data on disk.
-save_constraints -force
-ERROR: [Common 17-53] User Exception: A file was added to constraint set constraints2 after the  implementation design was open. Doing "Save Constraints" will overwrite these files. Use "Save Constraints As" to avoid losing any data on disk.
-save_constraints_as constrs_1
-set_property constrset constrs_1 [get_runs synth_1]
-set_property constrset constrs_1 [get_runs impl_1]
-delete_fileset [ get_filesets constraints2 ]
-file delete -force /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.srcs/constraints2
+INFO: [Project 1-1161] Replacing file /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/utils_1/imports/synth_1/top.dcp with file /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/synth_1/top.dcp
+launch_runs synth_1 -jobs 4
+[Fri Jan 12 13:53:08 2024] Launched synth_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/synth_1/runme.log
 reset_run synth_1
-INFO: [Project 1-1161] Replacing file /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.srcs/utils_1/imports/synth_1/top.dcp with file /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.runs/synth_1/top.dcp
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-[Tue Sep 12 12:06:55 2023] Launched synth_1...
-Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.runs/synth_1/runme.log
-[Tue Sep 12 12:06:55 2023] Launched impl_1...
-Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.runs/impl_1/runme.log
+INFO: [Project 1-1161] Replacing file /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/utils_1/imports/synth_1/top.dcp with file /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/synth_1/top.dcp
+launch_runs synth_1 -jobs 4
+[Fri Jan 12 13:54:07 2024] Launched synth_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Fri Jan 12 13:55:01 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Jan 12 13:55:54 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/impl_1/runme.log
 open_hw_manager
 connect_hw_server -allow_non_jtag
 INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
@@ -435,24 +1212,498 @@ INFO: [Labtools 27-2221] Launch Output:
   ****** Build date   : Apr 10 2023-17:59:24
     **** Build number : 2023.1.1681142364
       ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
-      ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 
 
 
 open_hw_target
 INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210328B792D0A
-set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
 current_hw_device [get_hw_devices xc7a35t_0]
 refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
 INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
 set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
 set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture2/exercise5lec2/exercise5lec2.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
 program_hw_devices [get_hw_devices xc7a35t_0]
 INFO: [Labtools 27-3164] End of startup status: HIGH
 refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
 INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
-close_design
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/utils_1/imports/synth_1/top.dcp with file /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/synth_1/top.dcp
+launch_runs synth_1 -jobs 4
+[Fri Jan 12 13:58:35 2024] Launched synth_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Fri Jan 12 13:59:36 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/impl_1/runme.log
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/home/markus/build/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.sim/sim_1/behav/xsim'
+xvhdl --incr --relax -prj top_vhdl.prj
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'top'
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot top_behav xil_defaultlib.top -log elaborate.log
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /home/markus/build/Xilinx/Vivado/2023.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot top_behav xil_defaultlib.top -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.top
+Built simulation snapshot top_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_behav -key {Behavioral:sim_1:Functional:top} -tclbatch {top.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 10198.242 ; gain = 85.414 ; free physical = 5971 ; free virtual = 10835
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run 5000 ms
+add_force {/top/clk} -radix hex {0 0ns} {1 4150ps} -repeat_every 8300ps
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+add_force {/top/clk} -radix hex {0 0ns} {1 4150ps} -repeat_every 8300ps
+run 5000 ms
+run: Time (s): cpu = 00:01:31 ; elapsed = 00:01:29 . Memory (MB): peak = 10208.242 ; gain = 10.000 ; free physical = 1976 ; free virtual = 10635
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 104856 KB (Peak: 162388 KB), Simulation CPU Usage: 64920 ms
+INFO: [Simtcl 6-16] Simulation closed
+close_hw_manager
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/utils_1/imports/synth_1/top.dcp with file /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/synth_1/top.dcp
+launch_runs synth_1 -jobs 4
+[Fri Jan 12 14:03:17 2024] Launched synth_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/synth_1/runme.log
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/home/markus/build/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.sim/sim_1/behav/xsim'
+xvhdl --incr --relax -prj top_vhdl.prj
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'top'
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot top_behav xil_defaultlib.top -log elaborate.log
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /home/markus/build/Xilinx/Vivado/2023.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot top_behav xil_defaultlib.top -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.top
+Built simulation snapshot top_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_behav -key {Behavioral:sim_1:Functional:top} -tclbatch {top.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 10238.238 ; gain = 19.996 ; free physical = 6011 ; free virtual = 10832
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+add_force {/top/clk} -radix hex {0 0ns} {1 4150ps} -repeat_every 8300ps
+run 5000 ms
+run: Time (s): cpu = 00:01:40 ; elapsed = 00:01:40 . Memory (MB): peak = 10238.238 ; gain = 0.000 ; free physical = 1509 ; free virtual = 10672
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 104856 KB (Peak: 162388 KB), Simulation CPU Usage: 71640 ms
+INFO: [Simtcl 6-16] Simulation closed
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/utils_1/imports/synth_1/top.dcp with file /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/synth_1/top.dcp
+launch_runs synth_1 -jobs 4
+[Fri Jan 12 14:06:12 2024] Launched synth_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri Jan 12 14:06:40 2024] Launched synth_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Fri Jan 12 14:07:32 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Jan 12 14:08:17 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2023.1
+  **** Build date : May  7 2023 at 15:13:34
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-17:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210328B792D0A
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/home/markus/build/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.sim/sim_1/behav/xsim'
+xvhdl --incr --relax -prj top_vhdl.prj
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'top'
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot top_behav xil_defaultlib.top -log elaborate.log
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /home/markus/build/Xilinx/Vivado/2023.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot top_behav xil_defaultlib.top -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.top
+Built simulation snapshot top_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_behav -key {Behavioral:sim_1:Functional:top} -tclbatch {top.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 10294.246 ; gain = 56.000 ; free physical = 5880 ; free virtual = 10774
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/utils_1/imports/synth_1/top.dcp with file /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/synth_1/top.dcp
+launch_runs synth_1 -jobs 4
+[Fri Jan 12 14:09:42 2024] Launched synth_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/synth_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_hw_manager
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri Jan 12 14:10:20 2024] Launched synth_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Fri Jan 12 14:11:20 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Jan 12 14:12:11 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2023.1
+  **** Build date : May  7 2023 at 15:13:34
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-17:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210328B792D0A
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/home/markus/build/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.sim/sim_1/behav/xsim'
+xvhdl --incr --relax -prj top_vhdl.prj
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/sources_1/new/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'top'
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot top_behav xil_defaultlib.top -log elaborate.log
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /home/markus/build/Xilinx/Vivado/2023.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot top_behav xil_defaultlib.top -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.top
+Built simulation snapshot top_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_behav -key {Behavioral:sim_1:Functional:top} -tclbatch {top.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+add_force {/top/clk} -radix hex {0 0ns} {1 4150ps} -repeat_every 8300ps
+run 5000 ms
+run: Time (s): cpu = 00:01:09 ; elapsed = 00:01:06 . Memory (MB): peak = 10348.258 ; gain = 0.000 ; free physical = 5200 ; free virtual = 10736
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 114036 KB (Peak: 162388 KB), Simulation CPU Usage: 18770 ms
+INFO: [Simtcl 6-16] Simulation closed
+close_hw_manager
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/utils_1/imports/synth_1/top.dcp with file /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/synth_1/top.dcp
+launch_runs synth_1 -jobs 4
+[Fri Jan 12 14:14:36 2024] Launched synth_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Fri Jan 12 14:15:20 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Jan 12 14:16:09 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2023.1
+  **** Build date : May  7 2023 at 15:13:34
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-17:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210328B792D0A
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.srcs/utils_1/imports/synth_1/top.dcp with file /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/synth_1/top.dcp
+launch_runs synth_1 -jobs 4
+[Fri Jan 12 14:18:11 2024] Launched synth_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/synth_1/runme.log
+close_hw_manager
+launch_runs impl_1 -jobs 4
+[Fri Jan 12 14:19:10 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Jan 12 14:19:58 2024] Launched impl_1...
+Run output will be captured here: /home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2023.1
+  **** Build date : May  7 2023 at 15:13:34
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-17:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210328B792D0A
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/markus/uni/digital_hardware_design/lecture7/exercise3/exercise3.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210328B792D0A
 close_hw_manager
 exit
-INFO: [Common 17-206] Exiting Vivado at Tue Sep 12 15:07:31 2023...
+INFO: [Common 17-206] Exiting Vivado at Fri Jan 12 14:44:42 2024...

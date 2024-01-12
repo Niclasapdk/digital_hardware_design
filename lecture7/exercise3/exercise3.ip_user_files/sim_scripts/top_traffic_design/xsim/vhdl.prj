@@ -1,7 +1,0 @@
-vhdl xil_defaultlib  \
-"../../../bd/top_traffic_design/ip/top_traffic_design_c_counter_binary_0_0/sim/top_traffic_design_c_counter_binary_0_0.vhd" \
-"../../../bd/top_traffic_design/ip/top_traffic_design_top_0_0/sim/top_traffic_design_top_0_0.vhd" \
-"../../../bd/top_traffic_design/sim/top_traffic_design.vhd" \
-
-# Do not sort compile order
-nosort

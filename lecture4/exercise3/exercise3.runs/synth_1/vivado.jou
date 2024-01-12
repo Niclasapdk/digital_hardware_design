@@ -3,12 +3,12 @@
 # SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Thu Sep 14 11:23:30 2023
-# Process ID: 18885
+# Start of session at: Fri Jan 12 12:55:22 2024
+# Process ID: 40007
 # Current directory: /home/markus/uni/digital_hardware_design/lecture4/exercise3/exercise3.runs/synth_1
 # Command line: vivado -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
 # Log file: /home/markus/uni/digital_hardware_design/lecture4/exercise3/exercise3.runs/synth_1/top.vds
 # Journal file: /home/markus/uni/digital_hardware_design/lecture4/exercise3/exercise3.runs/synth_1/vivado.jou
-# Running On: mltop, OS: Linux, CPU Frequency: 3590.148 MHz, CPU Physical cores: 4, Host memory: 16639 MB
+# Running On: mltop, OS: Linux, CPU Frequency: 3688.665 MHz, CPU Physical cores: 4, Host memory: 16639 MB
 #-----------------------------------------------------------
 source top.tcl -notrace

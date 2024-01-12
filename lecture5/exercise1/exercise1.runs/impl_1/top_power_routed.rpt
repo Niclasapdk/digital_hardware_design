@@ -1,8 +1,8 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------
-| Tool Version     : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-| Date             : Tue Sep 19 11:12:40 2023
-| Host             : LAPTOP-4V14CJV4 running 64-bit major release  (build 9200)
+| Tool Version     : Vivado v.2023.1 (lin64) Build 3865809 Sun May  7 15:04:56 MDT 2023
+| Date             : Fri Jan 12 13:11:44 2024
+| Host             : mltop running 64-bit Debian GNU/Linux 12 (bookworm)
 | Command          : report_power -file top_power_routed.rpt -pb top_power_summary_routed.pb -rpx top_power_routed.rpx
 | Design           : top
 | Device           : xc7a35tcpg236-1
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+----------------------------------+
-| Total On-Chip Power (W)  | 69.016 (Junction temp exceeded!) |
+| Total On-Chip Power (W)  | 69.169 (Junction temp exceeded!) |
 | Design Power Budget (W)  | Unspecified*                     |
 | Power Budget Margin (W)  | NA                               |
-| Dynamic (W)              | 68.530                           |
+| Dynamic (W)              | 68.683                           |
 | Device Static (W)        | 0.486                            |
 | Effective TJA (C/W)      | 5.0                              |
 | Max Ambient (C)          | 0.0                              |
@@ -52,16 +52,16 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     0.238 |       56 |       --- |             --- |
-|   LUT as Logic |     0.158 |       23 |     20800 |            0.11 |
+| Slice Logic    |     0.237 |       56 |       --- |             --- |
+|   LUT as Logic |     0.157 |       23 |     20800 |            0.11 |
 |   CARRY4       |     0.048 |        6 |      8150 |            0.07 |
 |   Register     |     0.026 |       24 |     41600 |            0.06 |
 |   BUFG         |     0.006 |        1 |        32 |            3.13 |
 |   Others       |     0.000 |        2 |       --- |             --- |
-| Signals        |     0.835 |       33 |       --- |             --- |
+| Signals        |     0.989 |       33 |       --- |             --- |
 | I/O            |    67.457 |       27 |       106 |           25.47 |
 | Static Power   |     0.486 |          |           |                 |
-| Total          |    69.016 |          |           |                 |
+| Total          |    69.169 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -71,7 +71,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     1.421 |       1.081 |      0.341 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     1.574 |       1.234 |      0.341 |       NA    | Unspecified | NA         |
 | Vccaux    |       1.800 |     2.525 |       2.472 |      0.053 |       NA    | Unspecified | NA         |
 | Vcco33    |       3.300 |    19.092 |      19.091 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -138,7 +138,7 @@ Table of Contents
 +------+-----------+
 | Name | Power (W) |
 +------+-----------+
-| top  |    68.530 |
+| top  |    68.683 |
 +------+-----------+
 
 

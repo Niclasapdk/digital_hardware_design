@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1694075945" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Exercise1.dcp">
-  <File Type="PA-TCL" Name="Exercise1.tcl"/>
-  <File Type="REPORTS-TCL" Name="Exercise1_reports.tcl"/>
-  <File Type="RDS-RDS" Name="Exercise1.vds"/>
-  <File Type="RDS-UTIL" Name="Exercise1_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="Exercise1_utilization_synth.pb"/>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1705056057" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Exercise1.dcp">
+  <File Type="VDS-TIMINGSUMMARY" Name="Exercise1_timing_summary_synth.rpt"/>
   <File Type="RDS-DCP" Name="Exercise1.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="Exercise1_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="Exercise1_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="Exercise1_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="Exercise1.vds"/>
+  <File Type="REPORTS-TCL" Name="Exercise1_reports.tcl"/>
+  <File Type="VDS-TIMING-PB" Name="Exercise1_timing_summary_synth.pb"/>
+  <File Type="PA-TCL" Name="Exercise1.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/Exercise1.vhd">

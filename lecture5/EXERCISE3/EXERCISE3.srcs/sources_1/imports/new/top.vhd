@@ -53,6 +53,9 @@ begin
                 else
                     shorty_next <= shorty_next - 1;
                 end if;
+                if (shorty_next > 59) then
+                    shorty_next <= (others => '0');
+                end if;
             end if;
         end if;
     end process; 

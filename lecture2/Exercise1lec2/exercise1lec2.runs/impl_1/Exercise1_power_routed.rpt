@@ -1,8 +1,8 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------
-| Tool Version     : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-| Date             : Thu Sep  7 10:40:34 2023
-| Host             : LAPTOP-51C14GPI running 64-bit major release  (build 9200)
+| Tool Version     : Vivado v.2023.1 (lin64) Build 3865809 Sun May  7 15:04:56 MDT 2023
+| Date             : Fri Jan 12 11:42:11 2024
+| Host             : mltop running 64-bit Debian GNU/Linux 12 (bookworm)
 | Command          : report_power -file Exercise1_power_routed.rpt -pb Exercise1_power_summary_routed.pb -rpx Exercise1_power_routed.rpx
 | Design           : Exercise1
 | Device           : xc7a35tcpg236-1
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 2.240        |
+| Total On-Chip Power (W)  | 2.263        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 2.163        |
+| Dynamic (W)              | 2.186        |
 | Device Static (W)        | 0.077        |
 | Effective TJA (C/W)      | 5.0          |
-| Max Ambient (C)          | 73.8         |
-| Junction Temperature (C) | 36.2         |
+| Max Ambient (C)          | 73.7         |
+| Junction Temperature (C) | 36.3         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -54,10 +54,10 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | Slice Logic    |     0.001 |        1 |       --- |             --- |
 |   LUT as Logic |     0.001 |        1 |     20800 |           <0.01 |
-| Signals        |     0.013 |        3 |       --- |             --- |
+| Signals        |     0.036 |        3 |       --- |             --- |
 | I/O            |     2.149 |        5 |       106 |            4.72 |
 | Static Power   |     0.077 |          |           |                 |
-| Total          |     2.240 |          |           |                 |
+| Total          |     2.263 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -67,7 +67,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.037 |       0.022 |      0.014 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.060 |       0.045 |      0.014 |       NA    | Unspecified | NA         |
 | Vccaux    |       1.800 |     0.091 |       0.078 |      0.013 |       NA    | Unspecified | NA         |
 | Vcco33    |       3.300 |     0.607 |       0.606 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -134,7 +134,7 @@ Table of Contents
 +-----------+-----------+
 | Name      | Power (W) |
 +-----------+-----------+
-| Exercise1 |     2.163 |
+| Exercise1 |     2.186 |
 +-----------+-----------+
 
 
