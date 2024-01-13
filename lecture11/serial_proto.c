@@ -169,6 +169,8 @@ int slaveParseCommand(portArray_t *portArr, msgBuf_t *buf, char *cmdBuf) {
     int ret = 0;
     char *endptr;
 
+    // parsing done by incrementing cmdBuf pointer mostly for "fun"
+
     // check command type
     bool isRead = strncmp(cmdBuf, CMD_READ, CMD_LEN) == 0;
     bool isWrite = strncmp(cmdBuf, CMD_WRITE, CMD_LEN) == 0;
