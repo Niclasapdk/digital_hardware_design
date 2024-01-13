@@ -9,3 +9,6 @@ build:
 
 build_debug:
 	gcc serial_proto.c -g -o serial_proto
+
+clean:
+	rm serial_proto
