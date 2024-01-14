@@ -1,14 +1,14 @@
 #-----------------------------------------------------------
 # Vivado v2023.1 (64-bit)
-# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Fri Jan 12 11:40:59 2024
-# Process ID: 27298
-# Current directory: /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/synth_1
-# Command line: vivado -log Exercise1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Exercise1.tcl
-# Log file: /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/synth_1/Exercise1.vds
-# Journal file: /home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/synth_1/vivado.jou
-# Running On: mltop, OS: Linux, CPU Frequency: 3792.132 MHz, CPU Physical cores: 4, Host memory: 16639 MB
+# Start of session at: Sun Jan 14 12:50:43 2024
+# Process ID: 17648
+# Current directory: C:/Users/nicla/Documents/GitHub/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/synth_1
+# Command line: vivado.exe -log Exercise1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Exercise1.tcl
+# Log file: C:/Users/nicla/Documents/GitHub/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/synth_1/Exercise1.vds
+# Journal file: C:/Users/nicla/Documents/GitHub/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.runs/synth_1\vivado.jou
+# Running On: Niclas-Laptop, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 14702 MB
 #-----------------------------------------------------------
 source Exercise1.tcl -notrace

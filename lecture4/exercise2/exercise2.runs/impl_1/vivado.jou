@@ -1,14 +1,14 @@
 #-----------------------------------------------------------
 # Vivado v2023.1 (64-bit)
-# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Fri Jan 12 11:53:09 2024
-# Process ID: 33742
-# Current directory: /home/markus/uni/digital_hardware_design/lecture4/exercise2/exercise2.runs/impl_1
-# Command line: vivado -log top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
-# Log file: /home/markus/uni/digital_hardware_design/lecture4/exercise2/exercise2.runs/impl_1/top.vdi
-# Journal file: /home/markus/uni/digital_hardware_design/lecture4/exercise2/exercise2.runs/impl_1/vivado.jou
-# Running On: mltop, OS: Linux, CPU Frequency: 3790.404 MHz, CPU Physical cores: 4, Host memory: 16639 MB
+# Start of session at: Sun Jan 14 13:14:15 2024
+# Process ID: 23936
+# Current directory: C:/Users/nicla/Documents/GitHub/digital_hardware_design/lecture4/exercise2/exercise2.runs/impl_1
+# Command line: vivado.exe -log top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
+# Log file: C:/Users/nicla/Documents/GitHub/digital_hardware_design/lecture4/exercise2/exercise2.runs/impl_1/top.vdi
+# Journal file: C:/Users/nicla/Documents/GitHub/digital_hardware_design/lecture4/exercise2/exercise2.runs/impl_1\vivado.jou
+# Running On: Niclas-Laptop, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 14702 MB
 #-----------------------------------------------------------
 source top.tcl -notrace

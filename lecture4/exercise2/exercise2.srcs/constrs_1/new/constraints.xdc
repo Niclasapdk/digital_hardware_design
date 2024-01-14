@@ -8,8 +8,10 @@ set_property PACKAGE_PIN U5 [get_ports {LED[0]}]
 set_property PACKAGE_PIN U2 [get_ports {LED[1]}]
 set_property PACKAGE_PIN W6 [get_ports {LED[2]}]
 set_property PACKAGE_PIN U3 [get_ports {LED[3]}]
+set_property PULLDOWN true [get_ports D]
 
 set_property PACKAGE_PIN A16 [get_ports clk]
+set_property PULLDOWN true [get_ports clk]
 set_property IOSTANDARD LVCMOS33 [get_ports clk]
 
 set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets clk_IBUF]

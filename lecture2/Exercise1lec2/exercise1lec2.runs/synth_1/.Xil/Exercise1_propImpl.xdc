@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:/home/markus/uni/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.srcs/constrs_1/new/ConstraintLEDandButtons.xdc rfile:../../../exercise1lec2.srcs/constrs_1/new/ConstraintLEDandButtons.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/nicla/Documents/GitHub/digital_hardware_design/lecture2/Exercise1lec2/exercise1lec2.srcs/constrs_1/new/ConstraintLEDandButtons.xdc rfile:../../../exercise1lec2.srcs/constrs_1/new/ConstraintLEDandButtons.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN L3 [get_ports B1]
 set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
